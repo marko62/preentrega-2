@@ -1,0 +1,46 @@
+h1 {
+    font-size: 1em;
+    height: 20px;
+} 
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.caja__contenedor{
+display: flex;
+justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100% ;
+}
+
+.caja__elemento {
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: #b5c8eb ;
+    height: 80%;
+    width: 30%;
+}
+.add .caja__elemento h1{
+background: #3573e6;
+} 
+
+.hero .caja__elemento:first-child {
+    width: 60%;
+
+} 
+.--extra{
+    display: none ;
+}
+
+.body .caja__elemento:nth-child(3){
+    width: 60%;
+}
+.side .caja__elemento0{
+    width: 80%;
+}
